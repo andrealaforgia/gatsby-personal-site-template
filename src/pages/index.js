@@ -18,7 +18,8 @@ export default ({ data }) => {
           height="260"
           fluid
           roundedCircle
-          src={dark ? `../../icons/darth-vader.png` : `icons/r2-d2.png`}
+          // src={dark ? `../../icons/darth-vader.png` : `icons/r2-d2.png`}
+          src={dark ? `../../icons/darth-vader.png` : `icons/icon-48x48.png`}
           alt={dark ? "Darth Vader" : "R2-D2"}
         />
         {unemployed && (
