@@ -156,8 +156,13 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+<!--
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)-->
 
+<!--
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+-->
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fb3d15a3-ad7f-4f06-9796-a3d6edea2188/deploy-status)](https://app.netlify.com/sites/infallible-clarke-cb45bc/deploys)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
