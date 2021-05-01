@@ -7,13 +7,13 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `John Doe`,
-    author: `John Doe`,
-    firstName: `John`,
-    lastName: `Doe`,
-    description: `John Doe's personal site`,
+    title: `Andrea Laforgia`,
+    author: `Andrea Laforgia`,
+    firstName: `Andrea`,
+    lastName: `Laforgia`,
+    description: `Andrea Laforgia's personal site`,
     occupation: `Software Engineer`,
-    keywords: [`John`, `Doe`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
+    keywords: [`Andrea`, `Laforgia`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
     unemployed: true,
@@ -75,8 +75,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `John Doe's Personal Site`,
-        short_name: `J.Doe`,
+        name: `Andrea Laforgia's Personal Site`,
+        short_name: `A.Laforgia`,
         description: `This is my personal site.`,
         start_url: `/`,
         background_color: `#fff`,
