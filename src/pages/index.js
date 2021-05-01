@@ -59,7 +59,7 @@ export default ({ data }) => {
             <FontAwesomeIcon
               icon={["fab", "github"]}
               className="icons github"
-              title="Github"
+              title="GitHub"
             />
           </a>
           <a
