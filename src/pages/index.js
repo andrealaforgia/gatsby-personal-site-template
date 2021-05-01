@@ -14,9 +14,10 @@ export default ({ data }) => {
       <SEO title="Home" />
       <Container className="text-center pt-5 mt-5" fluid>
         <Image
-          width="150"
-          height="150"
+          width="260"
+          height="260"
           fluid
+          roundedCircle
           src={dark ? `../../icons/darth-vader.png` : `../../icons/r2-d2.png`}
           alt={dark ? "Darth Vader" : "R2-D2"}
         />
@@ -29,23 +30,29 @@ export default ({ data }) => {
           <h1
             style={{
               fontSize: "5rem",
-              color: "black",
+              fontWeight: "600",
             }}
           >
             <span className="first-name">{firstName}</span>&nbsp;
             <span className="last-name">{lastName}</span>
           </h1>
-          <p>
+          <p
+              style={{
+                fontSize: "1.5rem",
+                fontWeight: "600",
+              }}
+          >
             <i>
-              {occupation} by day,&nbsp;
-              {dark ? `Imperial enforcer by night` : `Rebel scum by night`}
+              <span className="occupation">{occupation}</span>
+              {/*{occupation} by day,&nbsp;*/}
+              {/*{dark ? `Imperial enforcer by night` : `Rebel scum by night`}*/}
             </i>
           </p>
         </Container>
         <hr className="my-3 w-25" />
         <div className="d-md-inline-flex icons-container">
           <a
-            href="https://www.github.com"
+            href="https://www.github.com/andrealaforgia"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -56,7 +63,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/andrealaforgia"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,28 +73,28 @@ export default ({ data }) => {
               title="LinkedIn"
             />
           </a>
-          <a
-            href="https://www.freecodecamp.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "free-code-camp"]}
-              className="icons fcc"
-              title="FreeCodeCamp"
-            />
-          </a>
-          <a
-            href="https://www.hackerrank.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "hackerrank"]}
-              className="icons hr"
-              title="Hackerrank"
-            />
-          </a>
+          {/*<a*/}
+          {/*  href="https://www.freecodecamp.org"*/}
+          {/*  target="_blank"*/}
+          {/*  rel="noopener noreferrer"*/}
+          {/*>*/}
+          {/*  <FontAwesomeIcon*/}
+          {/*    icon={["fab", "free-code-camp"]}*/}
+          {/*    className="icons fcc"*/}
+          {/*    title="FreeCodeCamp"*/}
+          {/*  />*/}
+          {/*</a>*/}
+          {/*<a*/}
+          {/*  href="https://www.hackerrank.com/"*/}
+          {/*  target="_blank"*/}
+          {/*  rel="noopener noreferrer"*/}
+          {/*>*/}
+          {/*  <FontAwesomeIcon*/}
+          {/*    icon={["fab", "hackerrank"]}*/}
+          {/*    className="icons hr"*/}
+          {/*    title="Hackerrank"*/}
+          {/*  />*/}
+          {/*</a>*/}
           <a
             href="mailto:johndoe@some.invalid"
             target="_blank"
@@ -99,13 +106,13 @@ export default ({ data }) => {
               title="e-mail"
             />
           </a>
-          <a href="../../resume.pdf" target="_blank" download>
-            <FontAwesomeIcon
-              icon={["fas", "file-alt"]}
-              className="icons file"
-              title="Resume"
-            />
-          </a>
+          {/*<a href="../../resume.pdf" target="_blank" download>*/}
+          {/*  <FontAwesomeIcon*/}
+          {/*    icon={["fas", "file-alt"]}*/}
+          {/*    className="icons file"*/}
+          {/*    title="Resume"*/}
+          {/*  />*/}
+          {/*</a>*/}
         </div>
       </Container>
     </PageLayout>

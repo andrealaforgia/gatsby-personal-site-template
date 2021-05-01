@@ -8,7 +8,8 @@ import "./src/styles/global.scss"
 export const wrapRootElement = ({ element }) => (
   <ThemeProvider>
     <ThemeContext.Consumer>
-      {({ toString }) => <div className={`theme-${toString()}`}>{element}</div>}
+      {/*{({ toString }) => <div className={`theme-${toString()}`}>{element}</div>}*/}
+      {({ themeName }) => <div className={`theme-${themeName}`}>{element}</div>}
     </ThemeContext.Consumer>
   </ThemeProvider>
 )
