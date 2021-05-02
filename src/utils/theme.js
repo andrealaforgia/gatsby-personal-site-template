@@ -29,7 +29,7 @@ class ThemeProvider extends Component {
   //   dark: false,
   // }
   state = {
-    themeName: 'acquamarina'
+    themeName: defaultState.themeName
   }
   //
   // toString = () => (this.state.dark ? `dark` : `light`)

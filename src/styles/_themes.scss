@@ -7,27 +7,27 @@
 
 $themes: (
   acquamarina: (
-          backgroundColor: #def2f1,
+          backgroundColor: $light-acquamarina,
           footerBackground: white,
           navBackground: $gray-100,
           secondary: $gray-900,
           textColor: $black,
-          firstName: #3aafa9,
-          lastName: #3aafa9,
+          firstName: $acquamarina,
+          lastName: $acquamarina,
           linkHover: $gray-800,
           themeColor: $dark-blue,
           heartColor: pink,
           titleColor: $dark-blue,
           hrefColor: $dark-blue,
-          github: $gray-500,
+          github: black,
           linkedin: $linkedin-blue,
           fcc: $fcc-green,
           hr: $hr-green,
-          mail: $gray-500,
+          mail: black,
           file: $dark-blue,
-          iconBackground: #def2f1,
-          cardBackground: #def2f1,
-          occupation: #2b7a78
+          iconBackground: $light-acquamarina,
+          cardBackground: $light-acquamarina,
+          occupation: $acquamarina
   ),
   light: (
           backgroundColor: white,
