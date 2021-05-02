@@ -6,16 +6,16 @@ import "./Fontawesome.js"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default () => {
-  const { dark, toggleDark, toString } = useContext(ThemeContext)
+  const { themeName } = useContext(ThemeContext)
   return (
-    <Navbar variant={toString()} fixed="top" collapseOnSelect expand="md">
+    <Navbar variant={themeName} fixed="top" collapseOnSelect expand="md">
       <Navbar.Brand className="pl-5 ml-5" as={Link} to="/">
-        {/*<FontAwesomeIcon*/}
-        {/*  // icon={["fab", `${dark ? "empire" : "rebel"}`]}*/}
-        {/*  // className={`brand-icon ${dark ? "empire" : "rebel"}`}*/}
-        {/*    icon={"home"}*/}
-        {/*  title="Home"*/}
-        {/*/>*/}
+        <FontAwesomeIcon
+          // icon={["fab", `${dark ? "empire" : "rebel"}`]}
+          // className={`brand-icon ${dark ? "empire" : "rebel"}`}
+            icon={"home"}
+          title="Home"
+        />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse
@@ -27,7 +27,7 @@ export default () => {
           {/*  Blog*/}
           {/*</Nav.Link>*/}
           {/*<Nav.Link className="ml-2" as={Link} to="/about" title="About">*/}
-          {/*  About*/}
+          {/*  About Me*/}
           {/*</Nav.Link>*/}
           {/*<Nav.Link className="ml-2" as={Link} to="/projects" title="Projects">*/}
           {/*  Projects*/}

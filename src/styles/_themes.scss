@@ -121,6 +121,20 @@ $themes: (
   }
 }
 
+.about-me {
+  @include themify($themes) {
+    color: themed("aboutMe");
+    font-size: 0.75em;
+  }
+}
+
+.my-cv {
+  @include themify($themes) {
+    color: themed("myCv");
+    font-size: 0.75em;
+  }
+}
+
 // header
 .navbar,
 .navbar div {
