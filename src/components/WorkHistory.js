@@ -6,14 +6,14 @@ const CompanyCard = ({ frontmatter, image }) => {
   const { company, position, startDate, endDate, location } = frontmatter
   return (
     <Container fluid className="m-auto work-history">
-      <Img
-        fluid={image}
-        style={{
-          maxHeight: "15vmax",
-          maxWidth: "15vmax",
-        }}
-        className="m-auto"
-      />
+      {/*<Img*/}
+      {/*  fluid={image}*/}
+      {/*  style={{*/}
+      {/*    maxHeight: "15vmax",*/}
+      {/*    maxWidth: "15vmax",*/}
+      {/*  }}*/}
+      {/*  className="m-auto"*/}
+      {/*/>*/}
       <div className="md-font">
         <h2 className="m-auto pt-2">{company}</h2>
         <h5 className="text-muted">{location}</h5>

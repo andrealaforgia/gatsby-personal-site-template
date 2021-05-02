@@ -95,24 +95,24 @@ export default ({ data }) => {
           {/*    title="Hackerrank"*/}
           {/*  />*/}
           {/*</a>*/}
-          <a
-            href="mailto:johndoe@some.invalid"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fas", "envelope"]}
-              className="icons mail"
-              title="e-mail"
-            />
-          </a>
-          {/*<a href="../../resume.pdf" target="_blank" download>*/}
+          {/*<a*/}
+          {/*  href="mailto:johndoe@some.invalid"*/}
+          {/*  target="_blank"*/}
+          {/*  rel="noopener noreferrer"*/}
+          {/*>*/}
           {/*  <FontAwesomeIcon*/}
-          {/*    icon={["fas", "file-alt"]}*/}
-          {/*    className="icons file"*/}
-          {/*    title="Resume"*/}
+          {/*    icon={["fas", "envelope"]}*/}
+          {/*    className="icons mail"*/}
+          {/*    title="e-mail"*/}
           {/*  />*/}
           {/*</a>*/}
+          <a href='/cv'>
+            <FontAwesomeIcon
+              icon={["fas", "file-alt"]}
+              className="icons cv"
+              title="My CV"
+            />
+          </a>
         </div>
       </Container>
     </PageLayout>

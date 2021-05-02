@@ -24,10 +24,12 @@ $themes: (
           fcc: $fcc-green,
           hr: $hr-green,
           mail: black,
+          cv: black,
           file: $dark-blue,
           iconBackground: $light-acquamarina,
           cardBackground: $light-acquamarina,
-          occupation: $acquamarina
+          occupation: $acquamarina,
+          pageTitle: $acquamarina
   ),
   light: (
           backgroundColor: white,
@@ -135,6 +137,13 @@ $themes: (
   }
 }
 
+.page-title {
+  @include themify($themes) {
+    color: themed("pageTitle");
+    font-size: 0.75em;
+  }
+}
+
 // header
 .navbar,
 .navbar div {
@@ -207,6 +216,9 @@ $themes: (
     }
     &.linkedin {
       color: themed("linkedin");
+    }
+    &.cv {
+      color: themed("cv");
     }
     &.fcc {
       color: themed("fcc");

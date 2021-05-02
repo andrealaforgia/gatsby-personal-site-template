@@ -11,8 +11,8 @@ export default ({ data }) => {
   const imageMap = Utils.getImageMap(images, /\/[work].*\/|$/)
   return (
     <PageLayout>
-      <SEO title="Resume" />
-      <PageTitle title="Resume">
+      <SEO title="Andrea Laforgia's Curriculum Vitae" />
+      <PageTitle title="Andrea Laforgia's Curriculum Vitae">
         &nbsp;
         <a href="../../resume.pdf" target="_blank" download>
           <FontAwesomeIcon
