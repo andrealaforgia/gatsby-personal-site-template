@@ -106,13 +106,13 @@ export default ({ data }) => {
           {/*    title="e-mail"*/}
           {/*  />*/}
           {/*</a>*/}
-//           <a href='/cv'>
-//             <FontAwesomeIcon
-//               icon={["fas", "file-alt"]}
-//               className="icons cv"
-//               title="My CV"
-//             />
-//           </a>
+          {/*<a href='/cv'>*/}
+           {/* <FontAwesomeIcon*/}
+             {/* icon={["fas", "file-alt"]}*/}
+             {/* className="icons cv"*/}
+             {/* title="My CV"*/}
+           {/* />*/}
+         {/* </a>*/}
         </div>
       </Container>
     </PageLayout>
